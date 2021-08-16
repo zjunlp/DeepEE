@@ -1,0 +1,218 @@
+[
+  {
+    "golden-event-mentions": [
+      {
+        "trigger": {
+          "text": "invasion",
+          "end": 15,
+          "start": 14
+        },
+        "event_type": "Conflict:Attack",
+        "arguments": [
+          {
+            "entity-type": "GPE:Nation",
+            "end": 14,
+            "start": 13,
+            "role": "Attacker",
+            "text": "US"
+          },
+          {
+            "entity-type": "GPE:Nation",
+            "end": 14,
+            "start": 13,
+            "role": "Attacker",
+            "text": "British"
+          }
+        ]
+      }
+    ],
+    "words": [
+      "The",
+      "call",
+      "reflected",
+      "the",
+      "insistent",
+      "demand",
+      "made",
+      "by",
+      "the",
+      "three",
+      "leaders",
+      "before",
+      "the",
+      "US-British",
+      "invasion",
+      "of",
+      "Iraq",
+      "that",
+      "UN",
+      "approval",
+      "was",
+      "essential",
+      "for",
+      "any",
+      "mission",
+      "to",
+      "topple",
+      "Iraqi",
+      "President",
+      "Saddam",
+      "Hussein",
+      "."
+    ],
+    "sentence": "The call reflected the insistent demand made by the three leaders before the US-British invasion of Iraq that UN approval was essential for any mission to topple Iraqi President Saddam Hussein.",
+    "pos-tags": [
+      "DT",
+      "NN",
+      "VBD",
+      "DT",
+      "JJ",
+      "NN",
+      "VBN",
+      "IN",
+      "DT",
+      "CD",
+      "NNS",
+      "IN",
+      "DT",
+      "JJ",
+      "NN",
+      "IN",
+      "NNP",
+      "WDT",
+      "NNP",
+      "NN",
+      "VBD",
+      "JJ",
+      "IN",
+      "DT",
+      "NN",
+      "TO",
+      "VB",
+      "JJ",
+      "NNP",
+      "NNP",
+      "NNP",
+      "."
+    ],
+    "golden-entity-mentions": [
+      {
+        "entity-type": "GPE:Nation",
+        "text": "US",
+        "end": 14,
+        "start": 13
+      },
+      {
+        "entity-type": "GPE:Nation",
+        "text": "Iraq",
+        "end": 17,
+        "start": 16
+      },
+      {
+        "entity-type": "GPE:Nation",
+        "text": "Iraqi",
+        "end": 28,
+        "start": 27
+      },
+      {
+        "entity-type": "ORG:Non-Governmental",
+        "text": "UN",
+        "end": 19,
+        "start": 18
+      },
+      {
+        "entity-type": "PER:Group",
+        "text": "the three leaders",
+        "end": 11,
+        "start": 8
+      },
+      {
+        "entity-type": "GPE:Nation",
+        "text": "British",
+        "end": 14,
+        "start": 13
+      },
+      {
+        "entity-type": "PER:Individual",
+        "text": "Iraqi President Saddam Hussein",
+        "end": 31,
+        "start": 27
+      },
+      {
+        "entity-type": "PER:Individual",
+        "text": "Iraqi President",
+        "end": 29,
+        "start": 27
+      }
+    ],
+    "lemma": [
+      "the",
+      "call",
+      "reflect",
+      "the",
+      "insistent",
+      "demand",
+      "make",
+      "by",
+      "the",
+      "three",
+      "leader",
+      "before",
+      "the",
+      "us-british",
+      "invasion",
+      "of",
+      "Iraq",
+      "that",
+      "UN",
+      "approval",
+      "be",
+      "essential",
+      "for",
+      "any",
+      "mission",
+      "to",
+      "topple",
+      "iraqi",
+      "President",
+      "Saddam",
+      "Hussein",
+      "."
+    ],
+    "stanford-colcc": [
+      "ROOT/dep=2/gov=-1",
+      "det/dep=0/gov=1",
+      "nsubj/dep=1/gov=2",
+      "det/dep=3/gov=5",
+      "amod/dep=4/gov=5",
+      "dobj/dep=5/gov=2",
+      "dobj/dep=5/gov=21",
+      "acl/dep=6/gov=5",
+      "case/dep=7/gov=10",
+      "det/dep=8/gov=10",
+      "nummod/dep=9/gov=10",
+      "nmod:by/dep=10/gov=6",
+      "case/dep=11/gov=14",
+      "det/dep=12/gov=14",
+      "amod/dep=13/gov=14",
+      "nmod:before/dep=14/gov=6",
+      "case/dep=15/gov=16",
+      "nmod:of/dep=16/gov=14",
+      "ref/dep=17/gov=5",
+      "compound/dep=18/gov=19",
+      "nsubj/dep=19/gov=21",
+      "cop/dep=20/gov=21",
+      "acl:relcl/dep=21/gov=5",
+      "case/dep=22/gov=24",
+      "det/dep=23/gov=24",
+      "nmod:for/dep=24/gov=21",
+      "mark/dep=25/gov=26",
+      "acl:to/dep=26/gov=24",
+      "amod/dep=27/gov=30",
+      "compound/dep=28/gov=30",
+      "compound/dep=29/gov=30",
+      "dobj/dep=30/gov=26",
+      "punct/dep=31/gov=2"
+    ]
+  }
+]
